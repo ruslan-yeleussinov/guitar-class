@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  font-family: 'Ysabeau', sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --light: white;
+  --medium: rgb(114, 197, 193);
+  --dark: rgb(33, 66, 65);
+  --darker: rgb(25, 25, 25);
+  --w3green:  #04AA6D;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  background-color: var(--light);
+}
+
+a {
+  text-decoration: none;
+  color: var(--darker);
+  font-size: 25px;
+}
+
+a:hover {
+  color: var(--light);
+}
+
+/* WELCOME SECTION */
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #FFF4A3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  font-size: 50px;
+  color: var(--darker);
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin-top: -50px;
+}
+
+#schools-p {
+  font-size: 25px;
+  text-align: center;
+}
+
+#prokofiev-span {
+  color: orangered;
+}
+
+/* SIDENAV */
+
+.navopenbtn {
+  margin-left: 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--dark);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff7bb;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: var(--w3green);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/* STUDENTS-SECTION */
+
+#students-section {
+  background-color: var(--w3green);
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#students-div {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.students-section-title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.grade {
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+p {
+  color: var(--darker);
+}
+
+.bold-td {
+  font-weight: 600;
+  background-color: var(--medium);
+}
+
+/* ABOUT TEACHER SECTION */
+
+#about-teacher-section {
+  background-image: url('/images/concert3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-color: #FFF4A3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-teacher-text-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #FFF4A3;
+  padding-top: 20px;
+}
+
+#about-teacher-text-div {
+  height: 95vh;
+  width: 70%;
+  background-color: transparent;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+#about-teacher-title {
+  font-size: 40px;
+}
+
+/* PROGRAMMS */
+
+#levels-nav-section {
+  width: 100%;
+  height: 100vh;
+}
+
+.levels {
+  width: 100%;
+  height: 16.67vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #b4b4b4;
+}
+
+.levels:hover {
+  background-color: var(--w3green);
+}
+
+.level-sections {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+} 
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.levels-caption {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 30px;
+  color: var(--darker);
+}
+
+th {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+td, th {
+  font-size: 20px;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: transparent;
+}
+
+/* COMPETITIONS */
+
+.three-diplomas {
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .diplomas-section {
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .three-diplomas {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .wide-img {
+    overflow-x: auto;
+  }
+
+  .diploma-img {
+    display: block;
+  }
+}
+
+.diploma-img {
+  height: 85vh;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--dark);
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

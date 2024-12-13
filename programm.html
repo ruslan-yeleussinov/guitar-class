@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <title>Программа</title>
+</head>
+<body>
+  <!-- sidenav -->
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="navopenbtn">&#9776;</span>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Главная</a>
+    <a href="index.html#students-section">Ученики</a>
+    <a href="programm.html">Программа</a>
+  </div>
+
+  <!--LEVELS NAV -->
+  <section id="levels-nav-section"> 
+    <a href="#level-1-section"><div class="levels" id="level-1">1 класс</div></a>
+    <a href="#level-2-section"><div class="levels" id="level-2">2 класс</div></a>
+    <a href="#level-3-section"><div class="levels" id="level-3">3 класс</div></a>
+    <a href="#level-4-section"><div class="levels" id="level-4">4 класс</div></a>
+    <a href="#level-5-section"><div class="levels" id="level-5">5 класс</div></a>
+    <a href="#all-levels-section"><div class="levels" id="all-levels">Полный список</div></a>
+  </section>
+
+  <!-- FIVE LEVELS -->
+  <section class="level-sections" id="level-1-section">
+    <table id="level-1-table">
+      <caption class="levels-caption">1 класс</caption>
+      <tr>
+        <th>Произведение</th>
+        <th>Композитор</th>
+        <th>Класс</th>
+      </tr>
+    </table>   
+  </section>
+
+  <section class="level-sections" id="level-2-section">
+    <table id="level-2-table">
+      <caption class="levels-caption">2 класс</caption>
+      <tr>
+        <th>Произведение</th>
+        <th>Композитор</th>
+        <th>Класс</th>
+      </tr>
+    </table>   
+  </section>
+
+  <section class="level-sections" id="level-3-section">
+    <table id="level-3-table">
+      <caption class="levels-caption">3 класс</caption>
+      <tr>
+        <th>Произведение</th>
+        <th>Композитор</th>
+        <th>Класс</th>
+      </tr>
+    </table>   
+  </section>
+
+  <section class="level-sections" id="level-4-section">
+    <table id="level-4-table">
+      <caption class="levels-caption">4 класс</caption>
+      <tr>
+        <th>Произведение</th>
+        <th>Композитор</th>
+        <th>Класс</th>
+      </tr>
+    </table>   
+  </section>
+
+  <section class="level-sections" id="level-5-section">
+    <table id="level-5-table">
+      <caption class="levels-caption">5 класс</caption>
+      <tr>
+        <th>Произведение</th>
+        <th>Композитор</th>
+        <th>Класс</th>
+      </tr>
+    </table>   
+  </section>
+
+  <!-- ALL LEVELS -->
+  <section class="level-sections" id="all-levels-section">
+    <table id="all-levels-table">
+      <caption class="levels-caption">Полный список</caption>
+      <tr>
+        <th>Произведение</th>
+        <th>Композитор</th>
+        <th>Класс</th>
+      </tr>
+      <tr>
+        <td>Аллегретто</td>
+        <td>В.А.Моцарт</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Аллегретто</td>
+        <td>Ф.Карулли</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Аллегро a-moll</td>
+        <td>М.Джулиани</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Аллегро D-dur</td>
+        <td>М.Джулиани</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Аллегро</td>
+        <td>В.А.Моцарт</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Андантино C-dur</td>
+        <td>М.Каркасси</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Андантино G-dur</td>
+        <td>Ф.Карулли</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Антракт</td>
+        <td>Ж.Бизе</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Аргентинская мелодия</td>
+        <td>М.Л.Анидо</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Ария</td>
+        <td>И.С.Бах</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Баллада о Елене</td>
+        <td>В.Козлов</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Бразильский танец</td>
+        <td>Э.Вилла-Лобос</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Без Пейзажа</td>
+        <td>Н.Кошкин</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Болеро</td>
+        <td>М.Равель</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Бурре</td>
+        <td>И.С.Бах</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>В лесу родилась елочка</td>
+        <td>Л.Бекман</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>В пещере горного короля</td>
+        <td>Л.Бекман</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Вальс №4</td>
+        <td>А.Барриос</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Вальс</td>
+        <td>А.Петров</td>
+        <td>4</td>
+      <tr>
+        <td>Вальс C-dur</td>
+        <td>Ф.Карулли</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Вальс G-dur</td>
+        <td>М.Каркасси</td>
+        <td>2</td>
+      </tr>
+      </tr>
+      <tr>
+        <td>Во саду ли, в огороде</td>
+        <td>Русская народная</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Во сыром бору тропина</td>
+        <td>Русская народная</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Воспоминания об Италии</td>
+        <td>Х.Рунг</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Гавот</td>
+        <td>Таллар</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Грустный напев</td>
+        <td>А.Иванов-Крамской</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Живая вода</td>
+        <td>П.Панин</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Зеленые рукава</td>
+        <td>Старинная английская пьеса</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Канариос</td>
+        <td>Г.Санз</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Канон</td>
+        <td>И.Пахельбель</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Каприз №7</td>
+        <td>Л.Леньяни</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Классическая соната</td>
+        <td>М.Понсе</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Коюнбаба</td>
+        <td>К.Доменикони</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Кубинский танец</td>
+        <td>Неизвестный автор</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Кузнечик</td>
+        <td>В.Шаинский</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Куранта</td>
+        <td>Г.Санз</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Легенда</td>
+        <td>И.Альбенис</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Мазурка</td>
+        <td>Ф.Таррега</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Mалагенья</td>
+        <td>Испанская народная мелодия</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Маленькой елочке</td>
+        <td>М.Красев</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Маленький детектив</td>
+        <td>В.Козлов</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Маленькая желтая птица</td>
+        <td>К.Шиндлер</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Марш из Щелкунчика</td>
+        <td>П.Чайковский</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Марш</td>
+        <td>А.Диабелли</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Менуэт</td>
+        <td>А.Диабелли</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Менуэт D-dur</td>
+        <td>Неизвестный автор</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Менуэт e-moll</td>
+        <td>И.С.Бах</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Менуэт a-moll</td>
+        <td>И.С.Бах</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Менуэт G-dur</td>
+        <td>И.С.Бах</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Молитва</td>
+        <td>С.Марышев</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Море</td>
+        <td>Р.Мелостро</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Ноктюрн</td>
+        <td>Ф.Морено-Торроба</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Ода к радости</td>
+        <td>Л.Бетховен</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Один день в ноябре</td>
+        <td>Л.Брауэр</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Отзвуки вальса</td>
+        <td>Г.Свиридов</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Панадерос</td>
+        <td>Испанский танец</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Павана C-dur</td>
+        <td>Л.Милан</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Павана D-dur</td>
+        <td>Л.Милан</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Павана a-moll</td>
+        <td>Л.Милан</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Песенка друзей</td>
+        <td>Г.Гладков</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Песенка черепахи</td>
+        <td>Г.Гладков</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Полька</td>
+        <td>В.Козлов</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Полька G-dur</td>
+        <td>М.Каркасси</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Порыв</td>
+        <td>А.Иванов-Крамской</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Прелюдия</td>
+        <td>Таллар</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Прелюдия №1</td>
+        <td>Э.Вилла-Лобос</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Прелюдия D-dur</td>
+        <td>И.С.Бах</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Прелюдия d-moll</td>
+        <td>И.С.Бах</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Пьеса</td>
+        <td>Д.Тюрк</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Романс</td>
+        <td>В.Гомес</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Рондо C-dur</td>
+        <td>Ф.Молино</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Рондо C-dur</td>
+        <td>Ф.Карулли</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Рондо C-dur</td>
+        <td>М.Джулиани</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Рондо D-dur</td>
+        <td>Ф.Сор</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Рондо E-dur</td>
+        <td>М.Каркасси</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Рондо G-dur</td>
+        <td>Ф.Карулли</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Рондо G-dur</td>
+        <td>Ф.Карулли</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Руэро</td>
+        <td>Г.Санз</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Сарабанда</td>
+        <td>А.Корелли</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Скерцо</td>
+        <td>Г.Хартог</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Скерцо</td>
+        <td>А.Диабелли</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Слова любви</td>
+        <td>Н.Рота</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Собор</td>
+        <td>А.Барриос</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Соната op.15</td>
+        <td>М.Джулиани</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Соната A-dur</td>
+        <td>Д.Скарлатти</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Соната e-moll</td>
+        <td>Д.Скарлатти</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Соната К1</td>
+        <td>Д.Скарлатти</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Соната C-dur</td>
+        <td>Н.Паганини</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Сонатина C-dur</td>
+        <td>Н.Паганини</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Спят усталые игрушки</td>
+        <td>А.Островский</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Танец</td>
+        <td>А.Иванов-Крамской</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Танец феи драже</td>
+        <td>П.Чайковский</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Токката</td>
+        <td>П.Мориа</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Увертюра</td>
+        <td>Ж.Бизе</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Фандангильо</td>
+        <td>Ф.Морено-Торроба</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Фантазия</td>
+        <td>Л.Леньяни</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Фантазия d-moll</td>
+        <td>С.Л.Вайс</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Черный Орфей</td>
+        <td>Л.Бонфа</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Шоро</td>
+        <td>Д.Семензато</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Юмореска</td>
+        <td>А.Дворжак</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Afro-Cuban Lullaby</td>
+        <td>L.Brouwer</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Allemande</td>
+        <td>J.Dowland</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Allemande</td>
+        <td>J.S.Bach</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Alman</td>
+        <td>R.Johnson</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Almain</td>
+        <td>F.Cutting</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Andine</td>
+        <td>R.Dyens</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Bulerias</td>
+        <td>J.Martin</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Cancion</td>
+        <td>M.Ands</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Carol of the bells</td>
+        <td>M.Leontovich</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Cat walk</td>
+        <td>F.Payr</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Danza Brasilera</td>
+        <td>J.Morel</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Fandango</td>
+        <td>J.Martin</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Felicidade</td>
+        <td>R.Dyens</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Flamenco</td>
+        <td>A.Cano</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Fortune</td>
+        <td>J.Dowland</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Fuoco</td>
+        <td>R.Dyens</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Grand Solo</td>
+        <td>F.Sor</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Grand Sonata</td>
+        <td>N.Paganini</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Happy Birthday</td>
+        <td>M.Hill</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Invierno Porteno</td>
+        <td>A.Piazzolla</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Jesu, Joy of Man's Desire</td>
+        <td>J.S.Bach</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Jingle Bells</td>
+        <td>J.L.Pierpont</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Jumping Dance</td>
+        <td>Unknown autor</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>La Bicyclette</td>
+        <td>R.Dyens</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Lachrimae</td>
+        <td>J.Dowland</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Le Jouet</td>
+        <td>V.Cosma</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Leaf in the wind</td>
+        <td>F.Payr</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Libertango</td>
+        <td>A.Piazzolla</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Memmingen</td>
+        <td>R.Blackmore</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Minstrel Hall</td>
+        <td>R.Blackmore</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Moon River</td>
+        <td>H.Mancini</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Naruto</td>
+        <td>T.Masuda</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Nirtah</td>
+        <td>J.Veritae</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Nova Bossa</td>
+        <td>R.Dyens</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>On Joe's Deck</td>
+        <td>R.Dyens</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Pink Panther</td>
+        <td>H.Mancini</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Piper's Pavan</td>
+        <td>J.Dowland</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Pirates of the Carribean</td>
+        <td>H.Zimmer</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Pizzmambo</td>
+        <td>R.Dyens</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Prelude C-dur</td>
+        <td>M.Carcassi</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Prelude E-dur</td>
+        <td>M.Carcassi</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Prelude a-moll</td>
+        <td>M.Carcassi</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>River flows in you</td>
+        <td>Yiruma</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Scarborough Fair</td>
+        <td>English folk song</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Searching</td>
+        <td>Unknown autor</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Sevillanas</td>
+        <td>J.Martin</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Shape of my heart</td>
+        <td>Sting</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Smells like teen spirit</td>
+        <td>K.Cobain</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Snowflight</td>
+        <td>N.Koshkin</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Snowflight</td>
+        <td>A.York</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Soleares</td>
+        <td>J.Martin</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Songe Capricorne</td>
+        <td>R.Dyens</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Sorastra</td>
+        <td>J.Veritae</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Still Awake</td>
+        <td>T.Rauscher</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Sunburst</td>
+        <td>A.York</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Sunflower</td>
+        <td>P.Sun</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Tango en Skai</td>
+        <td>R.Dyens</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Tarantella</td>
+        <td>J.K.Mertz</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Verano Porteno</td>
+        <td>A.Piazzolla</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Violet Song</td>
+        <td>A.Chikmakov</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Yesterday</td>
+        <td>the Beatles</td>
+        <td>3</td>
+      </tr>
+    </table>   
+  </section>
+
+  <script src="/scripts/script.js" defer></script>
+</body>
+</html>
