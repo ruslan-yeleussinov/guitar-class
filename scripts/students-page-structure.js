@@ -8,19 +8,19 @@ function generateStudentContent(student) {
   <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="navopenbtn">&#9776;</span>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="/index.html">Главная</a>
-    <a href="/programm.html">Программа</a>
-    <a href="/students/artem.html">Артём</a>
-    <a href="/students/amir.html">Амир</a>
-    <a href="/students/iskender.html">Искендер</a>      
-    <a href="/students/kasim.html">Касым</a>
-    <a href="/students/nikita.html">Никита</a>
-    <a href="/students/amirali.html">Амирали</a>
-    <a href="/students/sultan.html">Султан</a>
-    <a href="/students/ilya.html">Илья</a>
-    <a href="/students/dias.html">Диас</a>
-    <a href="/students/katya.html">Катя</a>
-    <a href="/students/marsel.html">Марсель</a>
+    <a href="../index.html">Главная</a>
+    <a href="../program.html">Программа</a>
+    <a href="artem.html">Артём</a>
+    <a href="amir.html">Амир</a>
+    <a href="iskender.html">Искендер</a>      
+    <a href="kasim.html">Касым</a>
+    <a href="nikita.html">Никита</a>
+    <a href="amirali.html">Амирали</a>
+    <a href="sultan.html">Султан</a>
+    <a href="ilya.html">Илья</a>
+    <a href="dias.html">Диас</a>
+    <a href="katya.html">Катя</a>
+    <a href="marsel.html">Марсель</a>
   </div>
 
   <!-- NAV SECTION -->

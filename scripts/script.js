@@ -69,13 +69,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // PROGRAM
 
+
 document.addEventListener("DOMContentLoaded", () => {
   const allLevelsTable = document.querySelector("#all-levels-table");
 
+  if (!allLevelsTable) {
+    // Exit if the table is not present on the page
+    return;
+  }
+
+  // Loop through the rows of the main table
   for (let i = 1; i < allLevelsTable.rows.length; i++) {
     const level = allLevelsTable.rows[i].cells[2].textContent;
-    const targetSection = document.querySelector("#level-" + level + "-table");
+    const targetSection = document.querySelector(`#level-${level}-table`);
 
+    if (!targetSection) {
+      continue; // Skip to the next row
+    }
+
+    // Add a new row to the target table
     const newRow = targetSection.insertRow();
     for (let j = 0; j < allLevelsTable.rows[i].cells.length; j++) {
       const cell = newRow.insertCell();
